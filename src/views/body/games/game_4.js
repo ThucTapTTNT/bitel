@@ -14,8 +14,8 @@ const Game4 = () => {
     return(
         <div>
             <h1 className='game-title'>
-                Juegos de Concentración  
-                <a href='/'>Ver todo</a>
+                Sport Games  
+                <a href='/'>See all</a>
             </h1>
             <div>
                 <Slider {...settings}>

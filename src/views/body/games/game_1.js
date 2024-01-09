@@ -15,8 +15,8 @@ const Game1 = () => {
     return(
         <div className='game_1'>
             <h1 className='game-title'>
-                Nuevos juegos
-                <a href='/'>Ver todo</a>
+                New games
+                <a href='/'>See all</a>
             </h1>
             <div>
                 <Slider {...settings}>

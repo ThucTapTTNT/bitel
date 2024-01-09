@@ -107,38 +107,38 @@ const Header = () => {
                         <li>
                             <a href='/'>
                                 <img alt='' src={icon_1}/>
-                                <span>INICIO</span>
+                                <span>Home</span>
                             </a>
                         </li>
                         <li>
                             <a href='/'>
                                 <img alt='' src={icon_2}/>
-                                <span>JUEGOS</span>
+                                <span>Games</span>
                             </a>
                         </li>
                         <li>
                             <a href='/'>
                                 <img alt='' src={icon_3}/>
-                                <span>TABLA DE GANADORES</span>
+                                <span>Top Player</span>
                             </a>
                         </li>
                         <li>
                             <a href='/'>
                                 <img alt='' src={icon_4}/>
-                                <span>CONOCE MÁS</span>
+                                <span>About</span>
                             </a>
                         </li>
-                        <li>
+                        {/* <li>
                             <a href='/'>
                                 <span className='li-1'>HAZTE PREMIUM</span>
                             </a>
-                        </li>
+                        </li> */}
                     </ul>
                 </Col>
                 <a className='tk-a' href='/#'>
                     <i className='tk'/>
                 </a>
-                <a className='iniciar' href='/#' onClick={() => setShowModal(true)}>Iniciar sesión</a>
+                <a className='iniciar' href='/#' onClick={() => setShowModal(true)}>Log in</a>
                 <Modal
                     isOpen={showModal}
                     onRequestClose={() => setShowModal(false)}
@@ -149,7 +149,7 @@ const Header = () => {
                 >
                     {isLoggedIn ? loggedInMessage : loginForm}
                 </Modal>
-                <a className='regis' href='/'>Registrate</a>
+                <a className='regis' href='/'>Sign up</a>
             </div>
         </header>
     )
