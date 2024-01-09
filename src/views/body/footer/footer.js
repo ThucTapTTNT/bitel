@@ -1,7 +1,6 @@
 import React from 'react';
 import './footer.scss';
 import logo from '../../../assets/images/header/logo.png';
-import {Col} from 'react-grid-system';
 
 const Footer = () => {
     return(
@@ -11,7 +10,7 @@ const Footer = () => {
                     <div className='col-4'>
                         <div className='logo'>
                             <a href='/'>
-                                <img src={logo}/>
+                                <img src={logo} alt=""/>
                             </a>
                         </div>
                         <div className='footer-1-1'>

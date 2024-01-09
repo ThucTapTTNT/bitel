@@ -1,8 +1,6 @@
 import React from 'react';
 import Slider from "react-slick";
 import '../body.scss';
-import NextArrow from '../arrow/NextArrow';
-import PrevArrow from '../arrow/PrevArrow';
 
 const Game_1 = () => {
     var settings = {

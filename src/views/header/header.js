@@ -32,7 +32,9 @@ const Header = () => {
 
     const [username, setUsername] = useState("");
     const [password, setPassword] = useState("");
-    const [loggedIn, setLoggedIn] = useState(false);
+    const [
+        // loggedIn, 
+        setLoggedIn] = useState(false);
     const [users, setUsers] = useState([]);
     const [showModal, setShowModal] = useState(false);
   
@@ -133,10 +135,10 @@ const Header = () => {
                         </li>
                     </ul>
                 </Col>
-                <a className='tk-a' href='/'>
+                <a className='tk-a' href='/#'>
                     <i className='tk'/>
                 </a>
-                <a className='iniciar' href='#' onClick={() => setShowModal(true)}>Iniciar sesión</a>
+                <a className='iniciar' href='/#' onClick={() => setShowModal(true)}>Iniciar sesión</a>
                 <Modal
                     isOpen={showModal}
                     onRequestClose={() => setShowModal(false)}
