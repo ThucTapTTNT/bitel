@@ -2,7 +2,7 @@ import React from 'react';
 import Slider from "react-slick";
 import '../body.scss';
 
-const Game_6 = () => {
+const Game6 = () => {
     var settings = {
         dots: false,
         lazyLoad: true,
@@ -362,4 +362,4 @@ const Game_6 = () => {
     )
 }
 
-export default Game_6;
+export default Game6;
